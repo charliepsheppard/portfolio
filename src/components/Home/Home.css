@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo|Overpass" );
+
+h1 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 150px;
+    line-height: 240px;
+    margin-bottom: 130px;
+    color: #AF0000;
+}
+
+.hi {
+    font-size: 250px;
+    color: #AF0000;
+}
+
+.charlie {
+    color: #C2A681;
+}
