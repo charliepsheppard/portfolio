@@ -3,4 +3,12 @@
 body {
     background: rgba(51,51,51,1);
     color: #EEF0EF;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.App {
+    /* flex: 1 0 auto; */
+    flex: 1;
 }
