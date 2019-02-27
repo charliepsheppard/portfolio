@@ -10,20 +10,20 @@ const Work = () => {
         <div id="work">
             <h2 className="work-heading">Work</h2>
             <div className="work-card">
-                <div>
-                <img src={War} alt="" className="work-info" />
-                <span>This is a text</span>
-                </div>
+                <a href="https://mystifying-lalande-386bba.netlify.com/" target = "_blank">
+                    <img src={War} alt="" className="work-info" />
+                    <p>This is a text</p>
+                </a>
                 <br />
-                <div>
-                <img src={ArticleSmart} alt="" className="work-info" />
-                <span>This is a text</span>
-                </div>
+                <a href="http://painstaking-air.surge.sh/" target = "_blank">
+                    <img src={ArticleSmart} alt="" className="work-info" />
+                    <p>This is a text</p>
+                </a>
                 <br />
-                <div>
-                <img src={Scribblr} alt="" className="work-info" />
-                <span>This is a text</span>
-                </div>
+                <a href="https://scribblerr.herokuapp.com/" target = "_blank">
+                    <img src={Scribblr} alt="" className="work-info" />
+                    <p>This is a text</p>
+                </a>
             </div>
         </div>
     )
