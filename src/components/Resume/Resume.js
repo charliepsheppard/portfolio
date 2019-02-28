@@ -5,7 +5,9 @@ import PDF from '../../assets/devResume.pdf'
 const Resume = () => {
     return (
         <div>
-            <a href = {PDF} target = "_blank"><button>View Resume</button></a>
+            <h2 className="resume-heading">Resume</h2>
+            <p>For the sake of scrolling, feel free to check out my resume below...</p>
+            <a href = {PDF} target = "_blank"><button className="resume-button">View Resume</button></a>
         </div>
     )
 }

@@ -10,8 +10,8 @@ const Work = () => {
         <div id="work">
             <h2 className="work-heading">Work</h2>
             <div className="work-card">
-                <a href="https://mystifying-lalande-386bba.netlify.com/" target = "_blank">
-                    <img src={War} alt="" className="work-info" />
+                <a href="https://scribblerr.herokuapp.com/" target = "_blank">
+                    <img src={Scribblr} alt="" className="work-info" />
                     <p>This is a text</p>
                 </a>
                 <br />
@@ -20,8 +20,8 @@ const Work = () => {
                     <p>This is a text</p>
                 </a>
                 <br />
-                <a href="https://scribblerr.herokuapp.com/" target = "_blank">
-                    <img src={Scribblr} alt="" className="work-info" />
+                <a href="https://mystifying-lalande-386bba.netlify.com/" target = "_blank">
+                    <img src={War} alt="" className="work-info" />
                     <p>This is a text</p>
                 </a>
             </div>
