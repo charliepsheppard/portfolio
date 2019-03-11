@@ -1,10 +1,10 @@
 import React from 'react'
 import './About.css'
 
-const About = () => {
+const About = (props) => {
     return(
-        <div className="about">
-            <h2>About Me</h2>
+        <div className="about" id="about">
+            <h2 ref={props.appRef} >About Me</h2>
             <p>
                 {/* So, who is Charlie? Great question.
                 I grew up in the beautiful state of Vermont in its most populated city, Burlington. 

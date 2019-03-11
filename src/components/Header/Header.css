@@ -20,6 +20,10 @@ nav {
     text-decoration: none;
 }
 
+.nav-select {
+    text-decoration: none;
+}
+
 .nav-link:hover {
     border-bottom: 1px solid #fff;
     cursor: pointer;
@@ -30,7 +34,7 @@ nav {
     list-style-type: none;
     color: white;
     padding: 15px;
-    margin: -15px 0 40px 30px;
+    margin: -5px 0 40px 30px;
     border: 1px solid #000;
     background: #000;
     text-decoration: none;
@@ -39,4 +43,13 @@ nav {
 
 .logo:hover {
     border-bottom: 1px solid #fff;
+}
+
+i {
+    margin: 0 12px 0 12px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }

@@ -4,19 +4,27 @@
 }
 
 img {
-    max-width: 400px;
     width: 100%;
-    height: 100%;
 }
 
 .work-card {
     display: flex;
-    flex-direction: column-reverse;
-    display: inline-block;
-    margin-left: 35%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-a {
+.individual-work {
+    margin: 2em;
+    max-width: 500px;
+    background-color: #C2A681;
+}
+
+.work-label {
+    font-weight: bold;
+}
+
+.work-link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
