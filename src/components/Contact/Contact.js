@@ -4,11 +4,11 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div className='contact' id='contact'>
-            <h2 className='contact-heading'>Contact Me</h2><br />
-            <a href='mailto:sheppard.charlie24@gmail.com'><button className='contact-button'>Email me</button></a><br />
-            <a href='tel:8022384089'><button className='contact-button'>Call me</button></a><br />
-            <a href='https://www.linkedin.com/in/charlespsheppard/' target = "_blank"><button className='contact-button'>Find me on LinkedIn</button></a><br />
-            <a href='https://github.com/charliepsheppard' target = "_blank"><button className='contact-button'>Find me on GitHub</button></a>
+            <h2 className='contact-heading'>Contact Me</h2>
+            <a href='mailto:sheppard.charlie24@gmail.com' className='icon-link'><i class="far fa-envelope fa-3x"></i></a>
+            <a href='tel:8022384089' className='icon-link'><i class="fas fa-phone fa-3x"></i></a>
+            <a href='https://www.linkedin.com/in/charlespsheppard/' target = "_blank" className='icon-link'><i className="fab fa-github fa-3x"></i></a>
+            <a href='https://github.com/charliepsheppard' target = "_blank" className='icon-link'><i className="fab fa-linkedin-in fa-3x"></i></a>
         </div>
     )
 }
