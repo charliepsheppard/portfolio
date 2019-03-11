@@ -1,5 +1,5 @@
 
-h1 {
+.home-heading {
     font-family: 'Archivo', sans-serif;
     font-size: 150px;
     line-height: 240px;
@@ -24,4 +24,21 @@ h1 {
     width: 100%;
     border-radius: 50%;
     box-shadow: 10px 10px 8px #0000;
+}
+
+@media only screen and (max-width: 480px) {
+    .hi {
+        font-size: .6em;
+        text-align: center;
+    }
+
+    .charlie {
+        font-size: .4em;
+        /* line-height: 80px; */
+    }
+
+    .photo {
+        align-items: center;
+        text-align: center;
+    }
 }

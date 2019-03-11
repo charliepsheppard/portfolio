@@ -18,3 +18,9 @@ h2 {
 p {
     line-height: 1.4em;
 }
+
+@media only screen and (max-width: 480px) {
+    .about-content {
+        width: 80%;
+    }
+}

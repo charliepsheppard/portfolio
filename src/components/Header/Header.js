@@ -1,17 +1,14 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 import './Header.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faLinkedin } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () =>  {
-    const gitHub = <FontAwesomeIcon icon="fa-github" size="3x" />
-    const linkedin = <FontAwesomeIcon icon="fa-linkedin" size="3x" />
     return (
         <header>
             <nav className="nav">
                 <ul>
-                    <a href="#home-page"><li className='nav-link' className='logo'>Charlie Sheppard</li></a>
+                    <a href="#home-page"><li className='logo'>Charlie Sheppard</li></a>
                     <a href="#about"><li className='nav-link'>About</li></a>
                     <a href="#work"><li className='nav-link'>Work</li></a>
                     <a href="#resume"><li className='nav-link'>Resume</li></a>
@@ -19,7 +16,6 @@ const Header = () =>  {
                     <a href="https://github.com/charliepsheppard" target = "_blank"><i className="fab fa-github fa-2x"></i></a>
                     <a href="https://www.linkedin.com/in/charlespsheppard/" target = "_blank"><i className="fab fa-linkedin-in fa-2x"></i></a>
                 </ul>
-                
             </nav>
         </header>
     )    
