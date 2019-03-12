@@ -27,6 +27,10 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .home-heading {
+        margin-bottom: 1em;
+    }
+
     .hi {
         font-size: .6em;
         text-align: center;
@@ -40,5 +44,6 @@
     .photo {
         align-items: center;
         text-align: center;
+        width: 80%;
     }
 }

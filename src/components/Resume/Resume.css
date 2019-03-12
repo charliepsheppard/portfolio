@@ -26,3 +26,10 @@ p {
 .resume-button:hover {
     background-color: #AF0000;
 }
+
+@media only screen and (max-width: 480px) {
+    .resume-button {
+        width: 150px;
+        height: 60px;
+    }
+}

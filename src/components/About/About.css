@@ -10,7 +10,7 @@ h2 {
     font-family: 'Archivo', sans-serif;
     text-decoration: underline;
     text-decoration-color: #AF0000;
-    font-size: 80px;
+    font-size: 5em;
     color: #C2A681;
     margin-bottom: 5%;
 }
@@ -22,5 +22,10 @@ p {
 @media only screen and (max-width: 480px) {
     .about-content {
         width: 80%;
+    }
+
+    h2 {
+        font-size: 3em;
+        text-align: center;
     }
 }

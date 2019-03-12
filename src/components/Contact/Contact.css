@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.contact-button {
+/* .contact-button {
     max-width: 200px;
     width: 100%;
     height: 70px;
@@ -18,7 +18,7 @@
     background-color: #C2A681;
     color: #000;
     cursor: pointer;
-}
+} */
 
 .contact-button:hover {
     background-color: #AF0000;
@@ -26,4 +26,10 @@
 
 .icon-link {
     margin: 0 1.5em;
+}
+
+@media only screen and (max-width: 480px) {
+    .icon-link {
+        margin: 0 1em;
+    }
 }
