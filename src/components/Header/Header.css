@@ -6,8 +6,11 @@ nav {
     font-family: 'Archivo', sans-serif;
     /* background: -webkit-linear-gradient(bottom, rgba(0,0,0,1),rgba(0,0,0,.3)); */
     top: 0;
-    padding: 10px 0 20px 0px;
-    margin-bottom: 40px
+    padding: 10px 0 15px 0px;
+    margin-bottom: 60px;
+    height: 10%;
+    width: 100%;
+    /* position: fixed; */
 }
 
 .nav-link {
