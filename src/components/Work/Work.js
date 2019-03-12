@@ -1,7 +1,6 @@
 import React from 'react'
 import './Work.css'
 import War from '../../assets/War.png'
-import ArticleSmart from '../../assets/ArticleSmart.png'
 import Scribblr from '../../assets/Scribblr.png'
 import BodyShift from '../../assets/BodyShift.png'
 
@@ -26,15 +25,6 @@ const Work = () => {
                         <img src={Scribblr} alt="" className="work-info" />
                         <p><span className='work-label'>Description: </span>Group project focused on utilizing Git and GitHub. Worked with 3 other developers to develop skills in a work-place collaboration setting to create a full-stack app.<br />
                         <span className='work-label'>Stack: </span>React, React-Router React-Bootstrap, Express, Sequelize, Postgres
-                        </p>
-                    </a>
-                </div>
-                <br />
-                <div className="individual-work">
-                    <a href="http://painstaking-air.surge.sh/" target = "_blank" className='work-link'>
-                        <img src={ArticleSmart} alt="" className="work-info" />
-                        <p><span className='work-label'>Description: </span>Solo React project focusing on the use of 3rd party API's as well as general use of React.<br />
-                        <span className='work-label'>Stack: </span>React
                         </p>
                     </a>
                 </div>
